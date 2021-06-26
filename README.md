@@ -1,10 +1,10 @@
-##Mini-Assembler
+## Mini-Assembler
 
-#AUTHORS:
+# AUTHORS:
 Amandeep Kaur (2018014)
 Deepi Garg (2018389)
 
-#TABLE OF CONTENTS
+# TABLE OF CONTENTS
 About the Assembler
 1.1) Key features
 1.2) Machine requirements
@@ -25,18 +25,25 @@ Providing the input file
 Output file format
 Errors and Warnings
 
-#1) About the Assembler
+# 1) About the Assembler
 A basic implementation of a two-pass assembler, used to convert assembly language code to
 object code.
+
 1.1) Key features
+
 ● The assembler supports the use of labels, handles forward and backward referencing of
 labels.
+
 ● The assembler handles variables and their memory allocation.
+
 ● Handles MACRO definitions and calls in the program
 
 #1.2) Machine requirements
+
 ● 12-bit accumulator architecture (Word length = 12 bits).
+
 ● Has at least 2
+
 8 bit memory
 
 #1.3) Working
@@ -64,9 +71,12 @@ The assembler reads the instructions one by one and converts opcodes and address
 The label calls are replaced by the starting address of label definitions and variables are replaced by
 their storage addresses, both provided by the location counter during the first pass.
 
-#2)Instruction Set
+# 2)Instruction Set
 The instruction set is as follows:
-#2.1) Opcode Table
+
+# 2.1) Opcode Table
+![Screenshot 2021-06-26 at 11 32 32 AM](https://user-images.githubusercontent.com/46717101/123503756-80c5e200-d672-11eb-927c-922bf0413006.png)
+![Screenshot 2021-06-26 at 11 32 43 AM](https://user-images.githubusercontent.com/46717101/123503761-86232c80-d672-11eb-835d-96c0f061e924.png)
 
 
 2.2) Assembler Directives
